@@ -42,7 +42,7 @@
     <header id="header" class="header d-flex align-items-center sticky-top">
         <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-            <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+            <a href="{{'dashboard'}}" class="logo d-flex align-items-center me-auto me-xl-0">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="assets/img/logo.png" alt=""> -->
                 <img class="#" src="{{ asset('/assets/img/logokabupaten.png') }}" alt="desajatijaya">
@@ -56,9 +56,9 @@
                         <ul>
                             <li><a href="{{('tentangkami') }}">Tentang Kami</a></li>
                             <li><a href="{{('visimisi') }}">Visi & Misi</a></li>
-                            <li><a href="#">Sejarah Desa
+                            <li><a href="{{('sejarah') }}">Sejarah Desa
                                 </a></li>
-                            <li><a href="#">Geografis Desa</a></li>
+                            <li><a href="{{('geografi') }}">Geografis Desa</a></li>
                             <li><a href="#">Demografi Desa</a></li>
                         </ul>
                     </li>
@@ -66,8 +66,6 @@
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
                             <li><a href="#">APBDesa</a></li>
-                            <li><a href="#">Perencaan Pembangunan</a></li>
-                            <li><a href="#">Pembangunan Desa</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>Pemerintahan</span> <i
@@ -81,7 +79,7 @@
                     <li class="dropdown"><a href="#"><span>Informasi Publik</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="#">Berita Desa</a></li>
+                            <li><a href="{{('berita') }}">Berita Desa</a></li>
                             <li><a href="#">Pengumuman</a></li>
                             <li><a href="#">Agenda Kegiatan</a></li>
                             <li><a href="#">Galeri</a></li>
@@ -158,25 +156,39 @@
                                 <h2>Visi & Misi</h2>
                                 <p><b>Visi</b></p>
                                 <p>
-                                    Tasikmalaya yang religius atau islami, sebagai Kabupaten yang maju dan sejahtera,
-                                    serta kompetitif dalam bidang agribisnis di Jawa Barat tahun 2010
+                                    Mewujudkan Desa Jatijaya yang Mandiri, Berdaya Saing, Lestari, dan Agamis dengan
+                                    Mengedepankan Kearifan Lokal dan Inovasi untuk Kesejahteraan Warga.
 
                                 <p><b>Misi</b>
                                 </p>
 
                                 <p>
                                 <ol type="a">
-                                    <li>Mewujudkan sumber daya manusia yang beriman dan bertakwa, serta berakhlakul
-                                        karimah.</li>
-                                    <li>Mewujudkan sumber daya manusia yang berkualitas dan mandiri</li>
-                                    <li>Mewujudkan kepemerintahan yang baik dan pemerintah yang bersih</li>
-                                    <li>Mewujudkan pembangunan daerah melalui pemberdayaan masyarakat</li>
-                                    <li>Mewujudkan pertumbuhan ekonomi daerah melalui pembaruan agribisnis dengan di
-                                        dukung oleh sektor lain</li>
-                                    <li>Mewujudkan tataruang dan pengelolaan pertanahan yang berkesinambungan dan
-                                        berwawasan lingkungan</li>
+                                    <li>Meningkatkan kemandirian ekonomi masyarakat melalui pengembangan pertanian,
+                                        peternakan, dan UMKM dengan memanfaatkan
+                                        sumber daya lokal secara optimal.</li>
+                                    <li>Meningkatkan kualitas infrastruktur desa yang mendukung aksesibilitas dan
+                                        produktivitas warga.</li>
+                                    <li>Mengembangkan pendidikan dan keterampilan warga untuk meningkatkan daya saing
+                                        tenaga kerja di desa.</li>
+                                    <li>Mendorong inovasi teknologi di bidang pertanian, industri kreatif, dan
+                                        sektor-sektor lain yang potensial di desa.</li>
+                                    <li>Melestarikan lingkungan dan sumber daya alam desa melalui program penghijauan,
+                                        pengelolaan sampah, dan konservasi air.</li>
+                                    <li>Menumbuhkan nilai-nilai keagamaan yang kuat dalam kehidupan sehari-hari melalui
+                                        pengajian, pendidikan agama, dan
+                                        kegiatan keagamaan lainnya.</li>
+                                    <li>Mengedepankan nilai-nilai gotong royong dan solidaritas dalam setiap kegiatan
+                                        pembangunan desa.
+                                    </li>
+                                    <li>Meningkatkan pelayanan publik dengan memanfaatkan teknologi informasi dan
+                                        komunikasi.</li>
+                                    <li>Mendorong partisipasi aktif masyarakat dalam pembangunan desa melalui
+                                        program-program inovatif yang inklusif.</li>
                                 </ol>
                                 </p>
+                                <p><b>Motto</b></p>
+                                <p><i>Jatijaya ada, Jatijaya Bisa</i></p>
                             </div>
                         </div>
 

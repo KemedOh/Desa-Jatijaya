@@ -43,7 +43,7 @@
     <header id="header" class="header d-flex align-items-center sticky-top">
         <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-            <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+            <a href="{{'dashboard'}}" class="logo d-flex align-items-center me-auto me-xl-0">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="assets/img/logo.png" alt=""> -->
                 <img class="#" src="{{ asset('/assets/img/logokabupaten.png') }}" alt="desajatijaya">
@@ -59,7 +59,7 @@
                             <li><a href="{{('visimisi') }}">Visi & Misi</a></li>
                             <li><a href="{{('sejarah') }}">Sejarah Desa
                                 </a></li>
-                            <li><a href="#">Geografis Desa</a></li>
+                            <li><a href="{{('geografi') }}">Geografis Desa</a></li>
                             <li><a href="#">Demografi Desa</a></li>
                         </ul>
                     </li>
@@ -67,8 +67,6 @@
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
                             <li><a href="#">APBDesa</a></li>
-                            <li><a href="#">Perencaan Pembangunan</a></li>
-                            <li><a href="#">Pembangunan Desa</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>Pemerintahan</span> <i
@@ -82,7 +80,7 @@
                     <li class="dropdown"><a href="#"><span>Informasi Publik</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="#">Berita Desa</a></li>
+                            <li><a href="{{('berita') }}">Berita Desa</a></li>
                             <li><a href="#">Pengumuman</a></li>
                             <li><a href="#">Agenda Kegiatan</a></li>
                             <li><a href="#">Galeri</a></li>

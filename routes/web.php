@@ -9,3 +9,5 @@ Route::get('visimisi', [AuthController::class, 'visimisi'])->name('visi&misi');
 Route::get('sejarah', [AuthController::class, 'sejarah'])->name('sejarah');
 Route::get('berita', [AuthController::class, 'berita'])->name('berita');
 Route::get('admin', [AuthController::class, 'admin'])->name('admin');
+Route::get('beritadetail', [AuthController::class, 'berita-detail1'])->name('berita-detail1');
+Route::get('geografi', [AuthController::class, 'geografi'])->name('geografi');

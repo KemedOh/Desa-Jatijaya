@@ -51,6 +51,15 @@ class AuthController extends Controller
     {
         return view('admin.index');
     }
+    public function beritadetail(): View
+    {
+        return view('informasi.berita-detail1');
+    }
+
+    public function geografi(): View
+    {
+        return view('profil-desa.geografi');
+    }
     /**
      * Write code on Method
      *

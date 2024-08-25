@@ -105,10 +105,16 @@
                 <div class="container">
                     <div class="row d-flex justify-content-center text-center">
                         <div class="col-lg-8">
-                            <h1>Tentang Kami</h1>
-                            <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio
-                                sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus
-                                dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+                            <h1>Geografis</h1>
+                            <p class="mb-0">Geografi adalah ilmu yang mempelajari segala hal yang berkaitan dengan bumi,
+                                lautan, ekosistem, manusia, dan
+                                lingkungannya. Geografi mempelajari aktivitas manusia dan alam, serta interaksi di
+                                antara keduanya melalui perspektif
+                                ruang hingga terbentuk pola ruang tertentu. Geografi juga mendeskripsikan tatalaku
+                                subsistem lingkungan fisik dan
+                                bagaimana manusia menempatkan dirinya di permukaan bumi, terkait kondisi fisik
+                                lingkungan dan interaksinya dengan
+                                manusia lain.</p>
                         </div>
                     </div>
                 </div>
@@ -117,7 +123,7 @@
                 <div class="container">
                     <ol>
                         <li><a href="#">Profil Desa</a></li>
-                        <li class="current">Tentang Kami</li>
+                        <li class="current">Geografis Desa</li>
                     </ol>
                 </div>
             </nav>
@@ -148,118 +154,17 @@
               }
             }
           </script>
-                    <div class="swiper-wrapper align-items-center">
 
-                        <div class="swiper-slide">
-                            <img src="{{ asset('/assets/img/ruangrapat.jpg') }}" alt="">
-                        </div>
+                    <div class="row justify-content-between gy-4 mt-4">
 
-                        <div class="swiper-slide">
-                            <img src="{{ asset('/assets/img/kantordesa.jpg') }}" alt="">
-                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14232.046398772325!2d108.30504520878505!3d-7.408842754906916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65f7444882f72b%3A0x3638c1ea94eab89d!2sDesa%20Jatijaya!5e1!3m2!1sid!2sid!4v1723710381953!5m2!1sid!2sid"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                        <div class="swiper-slide">
-                            <img src="{{ asset('/assets/img/tamu.jpg') }}" alt="">
-                        </div>
-
-                    </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-pagination"></div>
-                </div>
-
-                <div class="row justify-content-between gy-4 mt-4">
-
-                    <div class="col-lg-12" data-aos="fade-up">
-                        <div class="portfolio-description">
-                            <h2>Tentang Platform Tata Kelola Desa (PTKD)</h2>
-                            <p><b>Mewujudkan Modernisasi Tatakelola Desa Melalui Pengembangan Platform Tata Kelola
-                                    Desa</b>
-
-                            </p>
-                            <p>
-                                Maksud Pengembangan PTKD adalah penyediaan media dalam memperoleh, mengelola dan
-                                menyajikan data serta informasi desa
-                                dan kawasan perdesaan.
-                            </p>
-
-                            <p>
-                                Tujuan Pengembangan PTKD adalah :
-                            </p>
-
-                            <p>
-                            <ol type="a">
-                                <li>Meningkatkan kualitas perencanaan dan perumusan kebijakan pembangunan desa dan
-                                    kawasan perdesaan. </li>
-                                <li>Mengefektifkan pelaksanaan kebijakan, program dan kegiatan pembangunan desa dan
-                                    kawasan perdesaan yang dilakukanoleh
-                                    Pemerintah Desa.</li>
-                                <li>Meningkatkan kualitas pelayanan dan memberikan manfaat yang sebesar-besarnya bagi
-                                    masyarakat dan pihak yang
-                                    berkepentingan.</li>
-                                <li>Mengukur dan memberikan penilaian secara obyektif terhadap kemajuan dan pencapaian
-                                    strategi pembangunan didesa dan
-                                    kawasan perdesaan yang dilakukan oleh Pemerintah Desa.</li>
-                            </ol>
-                            </p>
-                            <p>Ruang lingkup Pengembangan PTKD meliputi:</p>
-                            <p>
-                            <ol type="a">
-                                <li>Kedudukan, fungsi dan manfaat PTKD </li>
-                                <li>Perangkat PTKD</li>
-                                <li>Muatan PTKD</li>
-                                <li>Pengembangan PTKD</li>
-                                <li>Pengelolaan PTKD</li>
-                                <li>Tata cara dan penerapan PTKD</li>
-                                <li>Pembiayaan</li>
-                            </ol>
-                            </p>
-                            <p>Kedudukan, Fungsi Dan Manfaat PTKD:</p>
-                            <p>
-                            <ol>
-                                <li>PTKD merupakan sistem informasi yang diterapkan di tingkat desa, dikembangkan oleh
-                                    Pemerintah Daerah dan terintegrasi
-                                    melalui sistem informasi yang ada di tingkat Daerah.</li>
-                                <li>PTKD dikelola oleh Pemerintah Desa secara daring.</li>
-                                <li>PTKD merupakan satu-satunya sistem informasi yang diterapkan oleh Pemerintah Desa.
-                                </li>
-                                <li>PTKD menjadi sistem pendukung yang mudah dan akurat untuk pengelolaan sumber daya
-                                    desa secara berkelanjutan.</li>
-                            </ol>
-                            </p>
-                            <p>PTKD berfungsi sebagai media:</p>
-                            <p>
-                            <ol type="a">
-                                <li>untuk mengelola data desa</li>
-                                <li>informasi dan komunikasi pemerintahan desa</li>
-                                <li>pelayanan administrasi dan pengelolaan keuangan desa</li>
-                                <li>pengelolaan informasi sumber daya dan potensi kawasan perdesaan.</li>
-                            </ol>
-                            </p>
-                            <p>PTKD bermanfaat untuk:</p>
-                            <p>
-                            <ol type="a">
-                                <li>memudahkan Pemerintah Desa dalam mengakses, menyimpan danmengolah data desa</li>
-                                <li>meningkatkan kualitas pengelolaan data desa yang akurat dan terbarukan secara
-                                    berkala</li>
-                                <li>meningkatkan kualitas pelayanan administrasi Pemerintah Desa</li>
-                                <li>mempermudah akses informasi tentang desa</li>
-                                <li>meningkatkan akuntabilitas dan transparansi Pemerintahan Desa</li>
-                                <li>menemukan potensi sumber daya yang bisa dioptimalkan untuk mendukung kemandirian
-                                    desa</li>
-                                <li>meningkatkan kualitas perencanaan dan perumusan kebijakan pembangunan desa dan
-                                    kawasan perdesaan oleh pemerintah dari
-                                    tingkat pusat sampai ke tingkat desa</li>
-                                <li>mengefektifkan pelaksanaan kebijakan, program dan kegiatan Pemerintah Desa</li>
-                                <li>memudahkan pemerintah daerah melakukan pemantuan perkembangan desa secara nyata</li>
-                            </ol>
-                            </p>
-                        </div>
                     </div>
 
                 </div>
-
-            </div>
 
         </section><!-- /Portfolio Details Section -->
 
